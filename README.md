@@ -6,7 +6,7 @@ You can utilize this script to facilitate the installation of Chrome, Chromedriv
 Clone the repository
 
 ```
-git clone https://github.com/donadviser/selenium-chromedriver-wsl2.git selenium && cd selenium
+git clone https://github.com/leevanrell/selenium-chromedriver-wsl2.git selenium && cd selenium
 ```
 Update system packages
 
@@ -41,7 +41,8 @@ Install Chrome & Chromedriver
 
 
 ```
-./selenium_installer.sh
+chmod +x ws12_selenium_setup.sh
+./ws12_selenium_setup.sh
 ```
 
 Run a Python program
